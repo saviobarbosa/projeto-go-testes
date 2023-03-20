@@ -5,7 +5,7 @@ import (
 	"github.com/guilhermeonrails/api-go-gin/routes"
 )
 
-//Apenas um comentario
+//Apenas um comentario por aqui
 
 func main() {
 	database.ConectaComBancoDeDados()
