@@ -37,6 +37,9 @@ jobs:
   build:
     needs: test
     runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: ['ubuntu-latest']
     steps:
       - uses: action/checkout@v3
       - name: Build
